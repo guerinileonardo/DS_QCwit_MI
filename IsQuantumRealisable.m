@@ -1,6 +1,5 @@
 function [vis, M, lambda, alpha] = IsQuantumRealisible(P, rho)
-
-% script to check whether a given behaviour from the
+% function to check whether the behaviour (P, rho) from the
 % semi-quantum prepare and measure scenario admits a quantum realisation
 
 % input: 
