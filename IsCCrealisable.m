@@ -13,14 +13,9 @@ function [vis, mom, mu, beta] = IsCCrealisable(P, rho, M, white_noise)
 %              robustness (1) regarding distributed sampling with classical
 %              communication
 
-% argument P is optional; as long as rho and M are given we can construct it
-if ~exist('P','var')
-    P = behaviour(rho, M);
-end
+% argument M is optional
 
-% conversely, M is optional, as long as we have P
-
-% input white_noise is always optional, but if it equals 1, then M must be
+% input white_noise is optional, but if it equals 1, then M must be
 % provided or calculated
 if ~exist('white_noise','var')
     white_noise = 0;
