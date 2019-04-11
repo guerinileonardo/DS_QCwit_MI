@@ -1,6 +1,6 @@
 # SQPaM
 
-Code to accompany the article **[Final title](www.arxiv.org/abs/1903.XXXXX)**, by Leonardo Guerini, Marco Túlio Quintino, and Leandro Aolita.
+Code to accompany the article **[Distributed sampling, quantum communication witnesses, and measurement incompatibility](www.arxiv.org/abs/1904.XXXXX)**, by Leonardo Guerini, Marco Túlio Quintino, and Leandro Aolita.
 
 All code is written in MATLAB and requires [CVX](http://cvxr.com/) - a Matlab-based convex modeling framework.
 
