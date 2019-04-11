@@ -1,4 +1,4 @@
-# SQPaM
+# Distributed sampling
 
 Code to accompany the article **[Distributed sampling, quantum communication witnesses, and measurement incompatibility](www.arxiv.org/abs/1904.XXXXX)**, by Leonardo Guerini, Marco Túlio Quintino, and Leandro Aolita.
 
