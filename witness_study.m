@@ -35,7 +35,7 @@ P = quantum_behaviour(rho, M);
 
 % generating a quantum communication witness (mu, beta) 
 % sum_{byx} mu(b,y,x)*tr(rho(:,:,x)*M(:,:,b,y)) >= beta
-[~, ~, mu, beta] = IsDSwCC(P, rho, M, 1);
+[~, ~, mu, beta] = IsCCRealisable(P, rho, M, 1);
 
 % we wish to write it in the form \sum_{y,b} tr(F_{b|y}*M_{b|y})
 F = zeros(d,d,o,m);
