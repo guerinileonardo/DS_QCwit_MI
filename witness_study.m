@@ -2,7 +2,7 @@
 % we construct the ensembles E_y={sigma_{by}}_b whose discrimination is
 % associated to our quantum communication witness (Appendix D)
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % starters
 
 d = 2; % dimension of the systems
@@ -24,7 +24,7 @@ rho(:,:,4) = eye(2)/2;
 % set of measurements
 m = 2; % number of measurements
 o = 2; % number of outcomes
-M = zeros(d,d,m,o);
+M = zeros(d,d,o,m);
 M(:,:,1,1) = (eye(2) + sigmaX)/2;
 M(:,:,2,1) = (eye(2) - sigmaX)/2;
 M(:,:,1,2) = (eye(2) + sigmaY)/2;
